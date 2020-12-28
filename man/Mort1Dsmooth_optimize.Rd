@@ -39,7 +39,7 @@ Mort1Dsmooth_optimize(x, y, offset, wei,
   The function aims to find the optimal smoothing parameter within the
   given \code{RANGE} in \code{\link{Mort1Dsmooth}} with \code{method}
   equal to 1 or 2 (BIC and AIC). It employs the function
-  \code{cleversearch} from package \code{svcm} in two separate
+  \code{cleversearch} ported from package \code{svcm} in two separate
   steps. First it searches using a rough grid (4 times \code{TOL2}) and
   the median of \code{RANGE} as starting lambda. Afterwards it searches
   in the restricted range around the sub-optimal smoothing parameter,

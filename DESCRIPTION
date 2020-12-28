@@ -5,7 +5,7 @@ Version: 2.3.4
 Date: 2015-02-18
 Author: Carlo G Camarda
 Maintainer: Carlo G Camarda <carlo-giovanni.camarda@ined.fr>
-Depends: R (>= 3.0.2), svcm, lattice
+Depends: R (>= 3.0.2), lattice
 Description: Smoothing one- and two-dimensional Poisson counts with
              P-splines specifically tailored to mortality data.  
              Extra-Poisson variation can be accounted as well as forecasting.
@@ -20,3 +20,5 @@ Packaged: 2015-02-18 10:19:48 UTC; giancarlo
 NeedsCompilation: no
 Repository: CRAN
 Date/Publication: 2015-02-18 11:45:57
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

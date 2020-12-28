@@ -170,7 +170,7 @@ Mort2Dsmooth(x, y, Z, offset, W, overdispersion=FALSE,
   The arguments \code{MON}, \code{TOL1} and \code{MAX.IT} are kept
   during all the (pseudo) grid search when \code{method} is equal to 1,
   2 or 4. Function \code{cleversearch} from package
-  \code{svcm} is employed to speed the grid search. See
+  \code{svcm} has been ported to speed the grid search. See
   \code{\link{Mort2Dsmooth_optimize}} for details.
   
   The inner functions work using an arithmetic of arrays defined as

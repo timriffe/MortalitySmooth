@@ -51,7 +51,7 @@ Mort2Dsmooth_optimize(x, y, Z, offset, wei,
   The function aims to find the optimal smoothing parameters within the
   given \code{RANGEx} and \code{RANGEy} in \code{\link{Mort2Dsmooth}}
   with \code{method} equal to 1 or 2 (BIC and AIC). It employs the
-  function \code{cleversearch} from package \code{svcm} in two
+  function \code{cleversearch} originally from package \code{svcm} in two
   separate steps. First it searches using a rough grid (4 times
   \code{TOL2}) and the median of \code{RANGEx} and \code{RANGEy} as
   starting lambdas. Afterwards it searches in the restricted areas
