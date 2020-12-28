@@ -1,9 +1,12 @@
 Package: MortalitySmooth
 Type: Package
 Title: Smoothing and Forecasting Poisson Counts with P-Splines
-Version: 2.3.4
-Date: 2015-02-18
-Author: Carlo G Camarda
+Version: 2.3.5
+Date: 2020-12-28
+Authors@R: c(
+   person("CarloG", "Camarda", role = c("aut", "cre"), 
+          email = "carlo-giovanni.camarda@ined.fr"),
+   person("Tim", "Riffe", role = "ctb", comment = c(ORCID = "0000-0002-2673-4622")))
 Maintainer: Carlo G Camarda <carlo-giovanni.camarda@ined.fr>
 Depends: R (>= 3.0.2), lattice
 Description: Smoothing one- and two-dimensional Poisson counts with
@@ -16,9 +19,7 @@ LazyLoad: yes
 LazyData: yes
 VignetteBuilder: knitr
 Suggests: knitr
-Packaged: 2015-02-18 10:19:48 UTC; giancarlo
 NeedsCompilation: no
-Repository: CRAN
-Date/Publication: 2015-02-18 11:45:57
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Encoding: UTF-8
